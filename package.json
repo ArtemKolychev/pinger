@@ -1,0 +1,41 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon  --exec mocha  --require @babel/register",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://PerecTema@bitbucket.org/PerecTema/monitoredendpoints.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/PerecTema/monitoredendpoints#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "email-validator": "^2.0.4",
+    "jsonwebtoken": "^8.5.0",
+    "mysql": "^2.16.0",
+    "password-hash": "^1.2.2",
+    "restify": "^8.1.1",
+    "restify-errors": "^7.0.0",
+    "restify-jwt-community": "^1.0.10",
+    "restify-plugins": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "should": "^13.2.3"
+  }
+}

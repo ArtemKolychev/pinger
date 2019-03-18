@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "user": "local",
+  "password": "root",
+  "database": "monitor"
+}
